@@ -1,0 +1,208 @@
+/*main-tile*/
+.main-tile {
+    height : 90px;
+}
+.main-tile .icon-area {
+    width: 78px;
+    float : left;
+}
+.main-tile .icon-area .icon {
+    width         : 56px;
+    height        : 56px;
+    border-radius : 50%;
+    border        : 5px solid rgba(255, 255, 255, 0.85);
+    color         : #FFF;
+    font-size     : 29px;
+    margin: 10px auto;
+    padding-top   : 2px;
+}
+.main-tile .icon-area .icon.tweet {
+    background-color : #7EC4E7;
+}
+.main-tile .icon-area .icon.sales {
+    background-color : #75D1A3;
+}
+.main-tile .icon-area .icon.visits {
+    background-color : #FF7A7A;
+}
+.main-tile .icon-area .icon.messages {
+    background-color : #FFCE56;
+}
+.main-tile .count-data {
+    display : table;
+    float   : left;
+    padding: 17px 0;
+    width: -webkit-calc(100% - 78px);
+    width   : -moz-calc(100% - 95px);
+}
+.main-tile .count-data .stats {
+    font-size   : 18px;
+    font-weight : bold;
+    margin      : 0;
+}
+.main-tile .count-data .property {
+    margin : 0;
+    font-size: 13px;
+}
+.register_patient {
+    padding: 1rem 1.7rem;
+}
+.register_patient .fa-plus {
+ padding-left: 2rem;
+}
+/*weather-widget*/
+.weather-widget {
+    background-image : url("../../img/pages/weather.jpg");
+    background-size  : cover;
+    height           : 180px;
+    color            : #FFF;
+    padding          : 15px;
+}
+.weather-widget .day-name {
+    margin-top : 20px;
+    font-size  : 18px;
+}
+.weather-widget .day-temperature {
+    font-size   : 44px;
+    line-height : 57px;
+}
+.weather-widget .change_day {
+    background-color : rgba(225, 225, 225, .1);
+    position         : absolute;
+    height           : 75px;
+    margin-top       : 15px;
+    padding          : 26px 5px;
+    top              : 55px;
+    border-radius    : 0;
+}
+.weather-widget .change_day.prev_day {
+    left : 16px;
+}
+.weather-widget .change_day.next_day {
+    right : 16px;
+}
+.weather-widget .change_day img {
+    height : 20px;
+}
+.weather-widget .daily-data {
+    padding : 0 40px;
+}
+.weather-widget .daily-data h4 {
+    font-size     : 22px;
+    margin-top    : 0;
+    margin-bottom : 28px;
+}
+.weather-widget .daily-data .icon i {
+    font-size : 55px;
+}
+@media screen and (max-width : 375px) {
+    .weather-widget .daily-data .icon i {
+        font-size : 45px;
+    }
+    .weather-widget .daily-data {
+        padding : 0 32px;
+    }
+}
+
+/*order details table styles*/
+.order-details table thead {
+    border           : 1px solid #ddd;
+    background-color : #f9f9f9;
+}
+.order-details .trow-bg {
+    background-color : #f9f9f9;
+}
+.order-details .table > tbody > tr > td {
+    padding        : 10px 0;
+    vertical-align : middle;
+}
+.order-details .table .action-icons {
+    color : #999;
+}
+.action-icons i {
+    cursor: pointer;
+}
+.action-icons .delete:hover {
+    color : #FF7B7B;
+}
+.action-icons .details:hover {
+    color : #7ECCE7;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5723be;
+    border-color: #5723be;
+}
+
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active {
+    background-color: #6940bb;
+    border-color: #6940bb;
+}
+
+.play-store a {
+    display: inline-block;
+    padding: 0 35px;
+}
+
+.play-store a img {
+    width: 170px;
+}
+
+.pull-right > .dropdown-menu {
+    right: 15px;
+    left: auto;
+    top: 34px;
+    width: 64px;
+}
+.card-block.divi{
+    padding: 0;
+}
+.division {
+    padding-left: 0;
+}
+.division li {
+    padding: 10px 14px;
+    color: #4b4f52;
+}
+.division i {
+    padding-right: 10px;
+}
+.division span {
+    float: right;
+}
+
+.panel-bgcolor {
+ background-color: #5723be;
+}
+
+.panel-bgcolor .card-header {
+    border-bottom: none;
+    color: #FFF;
+    background-color: #5723be;
+}
+.panel-bgcolor .card-header h3 {
+    margin-top: 9px;
+}
+#doughnut-chart1 {
+    max-width: 350px;
+    margin: auto;
+}
+
+#doughnut-chart2 {
+    max-width: 300px;
+    margin: auto;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-block{
+    padding: 20px;
+}
+.card-header {
+    background-color: #ffffff;
+}
+.card-header h6 {
+    color: #000;
+    display: inline-block;
+}
